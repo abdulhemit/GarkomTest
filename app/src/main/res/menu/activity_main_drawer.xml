@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="@string/menu_Ana_Sayfa" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="@string/menu_garkom_sektor" >
+
+            <menu>
+
+                <item
+                    android:id="@+id/sub_one"
+                    android:title="Sub item 1"  />
+                <item
+                    android:id="@+id/sub_two"
+                    android:title="Sub item 2"/>
+                <item
+                    android:id="@+id/sub_three"
+                    android:title="Sub item 1"  />
+                <item
+                    android:id="@+id/sub_four"
+                    android:title="Sub item 2"  />
+                <item
+                    android:id="@+id/sub_five"
+                    android:title="Sub item 5"  />
+            </menu>
+
+        </item>
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="@string/menu_garkom_nasilCalisir" />
+        <item
+            android:id="@+id/isAriyorumFragment"
+
+            android:title="@string/menu_isAriyorum" />
+        <item
+            android:id="@+id/calisanAriyorumFragment"
+
+            android:title="@string/menu_CalisanAriyorum" />
+
+        <item
+            android:id="@+id/hakkimizdaFragment"
+
+            android:title="@string/menu_hakkimizda" />
+    </group>
+</menu>
